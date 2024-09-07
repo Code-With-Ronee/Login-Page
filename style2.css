@@ -1,0 +1,126 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background: url(pic9.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/** FORM **/
+.form{
+    background-color: transparent;
+    backdrop-filter: blur(20px);
+    color: #fff;
+    width: 420px;
+    padding: 30px 50px;
+    border-radius: 20px;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/** Heding **/
+h1{
+    font-size: 2rem;
+    text-align: center;
+}
+
+/** INPUT **/
+.input-box{
+    width: 100%;
+    height: 40px;
+    margin: 20px 0;
+
+}
+
+.input-box input{
+    height: 100%;
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: transparent;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    padding: 20px 40px 20px 20px;
+}
+
+.input-box input::placeholder{
+    font-size: 1rem;
+    color: #fff;
+}
+
+.gen{
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-around;
+    height: 30px;
+    /* cursor: pointer; */
+    /* background-color: bisque; */
+}
+
+.gen input{
+    accent-color: #333;
+}
+
+.country{
+    width: 100%;
+    height: 40px;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    background-color: transparent;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    color: #fff;
+    font-size: 1rem;
+    padding-left: 20px;
+    margin-bottom: 10px;
+}
+
+.country option{
+    color: #333;
+}
+
+.terms{
+    font-size: 14px;
+    margin: 0 0 15px;
+    padding-left: 10px;
+    cursor: pointer;
+}
+
+.terms label input{
+    accent-color: #fff;
+}
+
+.terms a{
+    color: #fff;
+
+    &:hover{
+        text-decoration: underline;
+    }
+}
+
+/** BUTTON **/
+button{
+    width: 100%;
+    height: 45px;
+    border: none;
+    outline: none;
+    border-radius: 45px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    font-size: 1rem;
+    color: #333;
+    font-weight: 600;
+}
